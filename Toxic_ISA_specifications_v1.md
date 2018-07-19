@@ -56,17 +56,21 @@ ff==01: jump to R1 if R0 is zero <br>
 ff==10: jump to R1 if R0 is negative <br>
 ##### Example: 1001
 Jump to R1 if R0 is zero
+***
 #### NOP
 ##### Format: 1011
 ##### Description and Example (1011):
 Do nothing for this cycle.
+***
 #### STP (Set Page)
 ##### Fotmat: 1100
 ##### Description and Example (1100):
 Set the page register of RAM to R1
+***
 #### GTP(Get Page)
 ##### Format:1101
 ##### Description and Example (1101):
 Get the current page number to R1
+***
 #### TRAP(111m)
 Reserved
